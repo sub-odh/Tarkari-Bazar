@@ -36,6 +36,7 @@ const services = () => {
       <div className="flex justify-between items-center">
         {serviceItems.map((services, index) => (
           <div
+            key={index}
             className={`flex flex-row items-center py-3 ${
               index === serviceItems.length - 2
                 ? "border-b-2 border-success"

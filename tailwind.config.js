@@ -9,6 +9,9 @@ module.exports = {
     extend: {
       backgroundImage: {
         "banner-image": "url('/banner.svg')",
+        "card_1": "url('/card1.svg')",
+        "card_2": "url('/card2.svg')",
+        "card_3": "url('/card3.svg')",
       },
       fontSize: {
         d1: ["4.5rem", "5.25rem"],

@@ -14,6 +14,7 @@ import {
 } from "@/assets/icons";
 import Slider from "./slider";
 import Services from "./services";
+import Deals from "./deals";
 
 const categoryItems = [
   {
@@ -98,6 +99,9 @@ const Banner = () => {
       </div>
       <div className="col-span-full">
         <Services />
+      </div>
+      <div className="col-span-full">
+        <Deals />
       </div>
     </section>
   );

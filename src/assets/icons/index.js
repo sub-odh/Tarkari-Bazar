@@ -18,6 +18,7 @@ import pieIcon from "./pie.svg";
 import foodIcon from "./food.svg";
 import plusIcon from "./plus.svg";
 import arrowIcon from "./arrow.svg";
+import greenArrowIcon from "./greenArrow.svg";
 import moneybackIcon from "./moneyback.svg";
 import freeShippingIcon from "./shipping.svg";
 import paymentIcon from "./payment.svg";
@@ -48,4 +49,5 @@ export {
   freeShippingIcon,
   paymentIcon,
   supportIcon,
+  greenArrowIcon,
 };
