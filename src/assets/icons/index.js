@@ -23,6 +23,7 @@ import moneybackIcon from "./moneyback.svg";
 import freeShippingIcon from "./shipping.svg";
 import paymentIcon from "./payment.svg";
 import supportIcon from "./support.svg";
+import addToCartIcon from "./Bag.svg";
 
 export {
   dropdownIcon,
@@ -50,4 +51,5 @@ export {
   paymentIcon,
   supportIcon,
   greenArrowIcon,
+  addToCartIcon,
 };

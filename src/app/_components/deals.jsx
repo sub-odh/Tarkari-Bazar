@@ -6,8 +6,8 @@ import CountdownTimer from "./CountdownTimer";
 
 const deals = () => {
   return (
-    <section className="grid grid-cols-3 text-center ">
-      <div className="h-[32rem] flex flex-col bg-card_1 bg-cover p-10 m-10 rounded-lg">
+    <div className=" p-10 grid grid-cols-3 gap-7 justify-items-center">
+      <div className=" h-[33.5rem] w-[26.5rem] flex flex-col bg-card_1 bg-no-repeat bg-cover p-10 text-center rounded-lg">
         <h3 className="text-white text-body-medium mb-1">BEST DEALS</h3>
         <p className="text-white text-body-xxl font-semi-bold">
           Sale of the Month
@@ -23,7 +23,7 @@ const deals = () => {
         </div>
       </div>
 
-      <div className="flex flex-col bg-card_2 p-10 m-10 rounded-lg">
+      <div className=" h-[33.5rem] w-[26.5rem] flex flex-col bg-card_2 bg-no-repeat bg-cover text-center p-10 rounded-lg">
         <h3 className="text-white text-body-medium mb-1"> 85% FAT FREE</h3>
         <p className="text-white text-body-xxl font-semi-bold mb-2">
           Low-Fat Meat
@@ -39,13 +39,12 @@ const deals = () => {
         </div>
       </div>
 
-      <div className="flex flex-col bg-card_3 p-10 m-10 rounded-lg">
+      <div className=" h-[33.5rem] w-[26.5rem] flex flex-col bg-card_3 bg-no-repeat bg-cover text-center p-10 rounded-lg">
         <h3 className="text-grey-900 text-body-medium mb-1">Summer Sale</h3>
         <p className="text-grey-900 text-body-xxl font-semi-bold mb-2">
           100% Fresh Fruit
         </p>
         <p className="mb-4">
-          Up to{" "}
           <span className="bg-grey-900 text-orange-300 py-1 px-2 rounded-md">
             64% OFF
           </span>
@@ -57,7 +56,7 @@ const deals = () => {
           </button>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
