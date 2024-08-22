@@ -13,6 +13,7 @@ module.exports = {
         card_2: "url('/card2.svg')",
         card_3: "url('/card3.svg')",
         summerSale: "url('/summer-sale.svg')",
+        hotSale: "url('/hotsale.svg')",
         cart: "url('/whiteCart.svg')",
         cartDefault: "url('/cartDefault.svg')",
         cartHover: "url('/cartHover.svg')",

@@ -13,7 +13,7 @@ export default function Home() {
       </div>
 
       <Category />
-      
+
       <Products />
     </main>
   );
