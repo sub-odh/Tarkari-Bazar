@@ -2,6 +2,7 @@ import Image from "next/image";
 import Banner from "./_components/banner";
 import Category from "./[category]/page";
 import Deals from "./_components/deals";
+import Team from "./_components/team";
 import Products from "./[category]/products";
 import { videoImg } from "@/assets/images";
 
@@ -21,6 +22,8 @@ export default function Home() {
       <section className=" grid justify-items-center my-10 w-auto">
         <Image src={videoImg} alt="video" />
       </section>
+
+      <Team />
     </main>
   );
 }
