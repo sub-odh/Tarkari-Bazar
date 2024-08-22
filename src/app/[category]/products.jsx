@@ -68,14 +68,17 @@ const products = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-4 gap-4 ">
+        <div className=" grid grid-cols-4 gap-4 ">
           {productItems.map((item, index) => (
             <div
               key={index}
-              className={`flex flex-col px-4 rounded-lg border border-grey-200 hover:shadow-success-bright hover:shadow-md transition-shadow hover:border-success  hover:border-1`}
+              className={` group relative px-4 rounded-lg border border-grey-200 hover:shadow-success-bright hover:shadow-md transition-shadow hover:border-success  hover:border-1`}
             >
               <Image src={item.image} alt={item.name} />
-
+              <div className=" opacity-0 group-hover:opacity-100 absolute top-4 right-4 flex flex-col space-y-2 justify-end">
+                <button className=" h-12 w-12 mt-4 border rounded-full bg-quickViewDefault bg-cover hover:bg-quickViewHover hover:transition-all ease-in-out duration-300"></button>
+                <button className=" h-12 w-12 mt-4 border rounded-full bg-wishlistDefault bg-cover hover:bg-wishlistHover hover:transition-all ease-in-out duration-300"></button>
+              </div>
               <div className="flex justify-between items-center">
                 <div>
                   <p className="text-gray-900 text-body-medium mt-2">
@@ -86,13 +89,7 @@ const products = () => {
                   </p>
                 </div>
                 <div>
-                  <button className=" h-12 w-12 mt-4 border rounded-full bg-grey-100 transition ease-in-out duration-300  hover:bg-success">
-                    <Image
-                      className="m-auto"
-                      src={addToCartIcon}
-                      alt="cartIcon"
-                    />
-                  </button>
+                  <button className=" h-12 w-12 mt-4 border rounded-full bg-cart bg-cover hover:bg-cartHover hover:transition-all ease-in-out duration-300"></button>
                 </div>
               </div>
             </div>
