@@ -43,7 +43,6 @@ const team = () => {
           </span>
         </div>
       ))}
-      ;
     </section>
   );
 };

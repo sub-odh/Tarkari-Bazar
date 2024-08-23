@@ -4,6 +4,7 @@ import Category from "./[category]/page";
 import Deals from "./_components/deals";
 import Team from "./_components/team";
 import Products from "./[category]/products";
+import Testimonial from "./_components/testimonial";
 import { videoImg } from "@/assets/images";
 
 export default function Home() {
@@ -24,6 +25,9 @@ export default function Home() {
       </section>
 
       <Team />
+
+      <Testimonial />
+      
     </main>
   );
 }

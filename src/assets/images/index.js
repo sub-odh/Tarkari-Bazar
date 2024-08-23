@@ -10,6 +10,10 @@ import janeImg from "./team/jane.svg";
 import jennyImg from "./team/jenny.svg";
 import robertImg from "./team/robert.svg";
 
+import robertFoxImg from "./user/robert.svg";
+import dianneImg from "./user/dianne.svg";
+import eleanorImg from "./user/eleanor.svg";
+
 export {
   logo,
   banner,
@@ -21,4 +25,7 @@ export {
   janeImg,
   jennyImg,
   robertImg,
+  robertFoxImg,
+  dianneImg,
+  eleanorImg,
 };

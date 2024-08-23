@@ -24,6 +24,7 @@ import freeShippingIcon from "./shipping.svg";
 import paymentIcon from "./payment.svg";
 import supportIcon from "./support.svg";
 import addToCartIcon from "./Bag.svg";
+import quoteIcon from "./quote.svg";
 
 export {
   dropdownIcon,
@@ -52,4 +53,5 @@ export {
   supportIcon,
   greenArrowIcon,
   addToCartIcon,
+  quoteIcon
 };
