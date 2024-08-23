@@ -26,7 +26,7 @@ const userTestimonials = [
 
 export const testimonial = () => {
   return (
-    <section className="bg-gray-50">
+    <section className="bg-gray-50 my-14 mx-10 ">
       <div className="pt-24 pb-9">
         <p className="text-center text-success text-body-small font-medium">
           Client Testiomial

@@ -25,6 +25,9 @@ import paymentIcon from "./payment.svg";
 import supportIcon from "./support.svg";
 import addToCartIcon from "./Bag.svg";
 import quoteIcon from "./quote.svg";
+import star from "./star/star.svg";
+import fullstar from "./star/fullstar.svg";
+import halfstar from "./star/halfstar.svg";
 
 export {
   dropdownIcon,
@@ -53,5 +56,8 @@ export {
   supportIcon,
   greenArrowIcon,
   addToCartIcon,
-  quoteIcon
+  quoteIcon,
+  star,
+  fullstar,
+  halfstar,
 };
