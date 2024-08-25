@@ -46,12 +46,14 @@ export const testimonial = () => {
               </p>
               <div className="flex mt-4 items-center">
                 <Image className="mr-3" src={testimonial.image} alt="user" />
-                <p className="text-gray-900 text-base font-medium">
-                  {testimonial.name}
+                <div>
+                  <p className="text-gray-900 text-base font-medium">
+                    {testimonial.name}
+                  </p>
                   <p className="text-gray-400 text-body-small font-normal">
                     Customer
                   </p>
-                </p>
+                </div>
               </div>
             </div>
           ))}

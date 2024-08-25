@@ -28,6 +28,7 @@ import quoteIcon from "./quote.svg";
 import star from "./star/star.svg";
 import fullstar from "./star/fullstar.svg";
 import halfstar from "./star/halfstar.svg";
+import line from "./line.svg";
 
 export {
   dropdownIcon,
@@ -60,4 +61,5 @@ export {
   star,
   fullstar,
   halfstar,
+  line,
 };

@@ -5,6 +5,8 @@ import Deals from "./_components/deals";
 import Team from "./_components/team";
 import Products from "./[category]/products";
 import Testimonial from "./_components/testimonial";
+import Brands from "./_components/brands";
+
 import { videoImg } from "@/assets/images";
 
 export default function Home() {
@@ -20,14 +22,15 @@ export default function Home() {
 
       <Products />
 
-      <section className=" grid justify-items-center my-10 w-auto">
-        <Image src={videoImg} alt="video" />
+      <section className=" grid justify-items-center my-14 mx-10 w-auto">
+        <Image src={videoImg} alt="video" className="w-screen" />
       </section>
 
       <Team />
 
       <Testimonial />
-      
+
+      <Brands />
     </main>
   );
 }

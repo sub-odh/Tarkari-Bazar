@@ -14,6 +14,13 @@ import robertFoxImg from "./user/robert.svg";
 import dianneImg from "./user/dianne.svg";
 import eleanorImg from "./user/eleanor.svg";
 
+import stepsLogo from "./company/steps.svg";
+import mangoLogo from "./company/mango.svg";
+import foodnetworkLogo from "./company/foodnetwork.svg";
+import foodLogo from "./company/food.svg";
+import bookoffLogo from "./company/bookoff.svg";
+import gseriesLogo from "./company/gseries.svg";
+
 export {
   logo,
   banner,
@@ -28,4 +35,10 @@ export {
   robertFoxImg,
   dianneImg,
   eleanorImg,
+  stepsLogo,
+  mangoLogo,
+  foodnetworkLogo,
+  foodLogo,
+  bookoffLogo,
+  gseriesLogo,
 };
