@@ -117,7 +117,7 @@ const products = () => {
 
   return (
     <>
-      <section className="mt-7 mx-10 my-10 grid justify-items-center">
+      <section className="mt-7 my-10 grid justify-items-center">
         <div>
           <h1 className="flex justify-center text-success text-body-small mb-2">
             PRODUCTS
@@ -158,10 +158,10 @@ const products = () => {
                 </div>
                 <div className="flex justify-between items-center">
                   <div>
-                    <p className="text-gray-900 text-body-medium mt-2">
+                    <p className="text-grey-900 text-body-medium mt-2">
                       {item.name}
                     </p>
-                    <p className="text-gray-900 text-body-medium mt-2">
+                    <p className="text-grey-900 text-body-medium mt-2">
                       ${item.price}
                     </p>
                   </div>
@@ -175,7 +175,7 @@ const products = () => {
         </div>
       </section>
 
-      <section className="grid grid-cols-4 gap-4 mx-10">
+      <section className="grid grid-cols-4 gap-4">
         <div>
           <h1 className="text-grey-900 font-medium mb-2">HOT DEALS</h1>
           <div>

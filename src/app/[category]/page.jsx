@@ -68,7 +68,7 @@ const categoryItems = [
 
 const Category = () => {
   return (
-    <section className="mt-7 mx-10 my-10">
+    <section className="mt-7 my-10">
       <h1 className="flex justify-center text-success text-body-small mb-2">
         CATEGORY
       </h1>
@@ -82,7 +82,7 @@ const Category = () => {
             className={`flex flex-col items-center p-4 rounded-lg border border-grey-200 hover:shadow-success-bright hover:shadow-md transition-shadow hover:border-success  hover:border-1`}
           >
             <Image src={item.icon} alt={item.title} />
-            <p className="text-gray-900 text-body-medium mt-2">{item.title}</p>
+            <p className="text-grey-900 text-body-medium mt-2">{item.title}</p>
           </div>
         ))}
       </div>

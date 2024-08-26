@@ -80,7 +80,7 @@ const categoryItems = [
 
 const Banner = () => {
   return (
-    <section className="mx-10 grid grid-cols-12 mt-6 gap-6">
+    <section className="grid grid-cols-12 mt-6 gap-6">
       <div className="col-span-3 border border-grey-400">
         {categoryItems.map((category, index) => (
           <CategoryItem

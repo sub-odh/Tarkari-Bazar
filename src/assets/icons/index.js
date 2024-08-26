@@ -29,6 +29,16 @@ import star from "./star/star.svg";
 import fullstar from "./star/fullstar.svg";
 import halfstar from "./star/halfstar.svg";
 import line from "./line.svg";
+import mail from "./mail.svg";
+
+import appleStore from "./appleStore.svg";
+import googlePlay from "./googlePlay.svg";
+
+import applePay from "./payments/applePay.svg";
+import discover from "./payments/discover.svg";
+import mastercard from "./payments/mastercard.svg";
+import visa from "./payments/visa.svg";
+import securePay from "./payments/securePay.svg";
 
 export {
   dropdownIcon,
@@ -62,4 +72,12 @@ export {
   fullstar,
   halfstar,
   line,
+  mail,
+  appleStore,
+  googlePlay,
+  applePay,
+  discover,
+  mastercard,
+  visa,
+  securePay,
 };

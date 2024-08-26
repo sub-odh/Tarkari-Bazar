@@ -11,7 +11,7 @@ import { videoImg } from "@/assets/images";
 
 export default function Home() {
   return (
-    <main className="">
+    <main className="mx-10">
       <Banner />
 
       <div className="col-span-full">
@@ -22,7 +22,7 @@ export default function Home() {
 
       <Products />
 
-      <section className=" grid justify-items-center my-14 mx-10 w-auto">
+      <section className=" grid justify-items-center my-14 w-auto">
         <Image src={videoImg} alt="video" className="w-screen" />
       </section>
 

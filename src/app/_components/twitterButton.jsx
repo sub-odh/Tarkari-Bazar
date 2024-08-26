@@ -4,7 +4,7 @@ const twitterButton = () => {
   const [imageSrc, setImageSrc] = useState("/socialMedia/twitterFalse.svg");
 
   return (
-    <button>
+    <button className="mr-2">
       <img
         src={imageSrc}
         onMouseOver={() => setImageSrc("/socialMedia/twitterTrue.svg")}

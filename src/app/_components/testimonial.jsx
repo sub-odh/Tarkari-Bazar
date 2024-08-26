@@ -26,12 +26,12 @@ const userTestimonials = [
 
 export const testimonial = () => {
   return (
-    <section className="bg-gray-50 my-14 mx-10 ">
+    <section className="bg-grey-50 my-14 ">
       <div className="pt-24 pb-9">
         <p className="text-center text-success text-body-small font-medium">
           Client Testiomial
         </p>
-        <p className="text-center text-gray-900 text-h4 font-semibold">
+        <p className="text-center text-grey-900 text-h4 font-semibold">
           What our Client says?
         </p>
       </div>
@@ -41,16 +41,16 @@ export const testimonial = () => {
           {userTestimonials.map((testimonial) => (
             <div key={testimonial.id} className="bg-white p-6 shadow-sm">
               <Image className="pb-4" src={quoteIcon} alt="quote" />
-              <p className="text-gray-700 text-body-small font-normal">
+              <p className="text-grey-700 text-body-small font-normal">
                 {testimonial.say}
               </p>
               <div className="flex mt-4 items-center">
                 <Image className="mr-3" src={testimonial.image} alt="user" />
                 <div>
-                  <p className="text-gray-900 text-base font-medium">
+                  <p className="text-grey-900 text-base font-medium">
                     {testimonial.name}
                   </p>
-                  <p className="text-gray-400 text-body-small font-normal">
+                  <p className="text-grey-400 text-body-small font-normal">
                     Customer
                   </p>
                 </div>

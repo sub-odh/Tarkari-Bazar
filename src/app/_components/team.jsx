@@ -33,7 +33,7 @@ const teamMembers = [
 ];
 const team = () => {
   return (
-    <section className="grid grid-cols-4 mx-10 justify-items-center">
+    <section className="grid grid-cols-4  justify-items-center">
       {teamMembers.map((item) => (
         <div key={item.id} className="flex group relative flex-col ">
           <Image
@@ -49,7 +49,7 @@ const team = () => {
           </div>
           <span className="flex flex-col my-2">
             <h3 className="text-lg font-semibold">{item.name}</h3>
-            <p className="text-sm text-gray-500">{item.title}</p>
+            <p className="text-sm text-grey-500">{item.title}</p>
           </span>
         </div>
       ))}

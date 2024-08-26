@@ -6,7 +6,7 @@ const CategoryItem = (props) => {
     <div
       className={`flex items-center px-5 py-4  ${
         props.active ? "bg-success" : ""
-      } ${props.showBorder && "border-t-gray-300 border"}`}
+      } ${props.showBorder && "border-t-grey-300 border"}`}
     >
       <Image src={props.active ? props.activeIcon : props.icon} alt="" />
 

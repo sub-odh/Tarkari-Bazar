@@ -21,7 +21,7 @@ const companyLogos = [
 
 const brands = () => {
   return (
-    <div className="flex mx-10 p-14 justify-between items-center">
+    <div className="flex p-14 justify-between items-center">
       {companyLogos.map((logo, index) => (
         <div key={index} className="flex items-center">
           <Image src={logo} alt={`Company logo ${index}`} />
