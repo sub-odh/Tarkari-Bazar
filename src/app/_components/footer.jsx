@@ -57,12 +57,12 @@ const footer = () => (
           voluptates!
         </p>
 
-        <div className="flex">
-          <p className="hover:border-b-2 border-success">
+        <div className="flex items-center">
+          <p className="hover:border-b-2 border-success text-body-small">
             <a href="tel: +9779844223366">+977-9844223366</a>
           </p>
           <span className="mx-4">or</span>
-          <p className="hover:border-b-2 border-success">
+          <p className="hover:border-b-2 border-success text-body-small">
             <a href="mailto:tarkarbazar@gmail.com">tarkarbazar@gmail.com</a>
           </p>
         </div>
@@ -124,7 +124,7 @@ const footer = () => (
         </div>
       </div>
 
-      <div className="ml-14">
+      <div className="ml-14 ">
         <h3>Download Mobile App</h3>
         <div className="flex">
           <div className="flex bg-white mr-2 items-center p-2">

@@ -40,6 +40,12 @@ import mastercard from "./payments/mastercard.svg";
 import visa from "./payments/visa.svg";
 import securePay from "./payments/securePay.svg";
 
+import homeIcon from "./home.svg";
+import rightArrow from "./rightArrow.svg";
+
+import contactMapPin from "./contact-MapPin.svg";
+import contactEmail from "./contact-email.svg";
+
 export {
   dropdownIcon,
   mapPin,
@@ -80,4 +86,8 @@ export {
   mastercard,
   visa,
   securePay,
+  homeIcon,
+  rightArrow,
+  contactMapPin,
+  contactEmail,
 };

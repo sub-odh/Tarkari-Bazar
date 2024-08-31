@@ -89,12 +89,12 @@ export default function Header() {
             <Image src={dropdownIcon} alt="down-icon" className="w-5 h-5" />
           </div>
 
-          <NavLink title="Home" active />
-          <NavLink title="Shop" />
-          <NavLink title="Pages" />
-          <NavLink title="Blogs" />
-          <NavLink title="About Us" hideIcon />
-          <NavLink title="Contact Us" hideIcon />
+          <NavLink title="Home" href="#" />
+          <NavLink title="Shop" href="shop" />
+          <NavLink title="Pages" href="pages" />
+          <NavLink title="Blogs" href="blogs" />
+          <NavLink title="About Us" hideIcon href="about-us" />
+          <NavLink title="Contact Us" hideIcon href="contact" />
         </div>
         <div className="flex">
           <div className="py-4">

@@ -40,14 +40,13 @@ const CountdownTimer = ({ days = 0, hours = 0, minutes = 0, seconds = 0 }) => {
   return (
     <div className="text-white">
       <div>
-        <span className="mx-3">{String(time.days).padStart(2, "0")}</span> :{" "}
-        <span className="mx-3">{String(time.hours).padStart(2, "0")}</span> :{" "}
-        <span className="mx-3">{String(time.minutes).padStart(2, "0")}</span> :{" "}
-        <span className="mx-3">{String(time.seconds).padStart(2, "0")}</span>
+        <span className="mr-3">{String(time.days).padStart(2, "0")}</span> :
+        <span className="mx-4">{String(time.hours).padStart(2, "0")}</span> :
+        <span className="mx-4">{String(time.minutes).padStart(2, "0")}</span> :
+        <span className="ml-4">{String(time.seconds).padStart(2, "0")}</span>
       </div>
-      <div className="text-body-tiny">
-        <span className="mx-3">DAYS</span> <span className="mx-3">HOURS</span>{" "}
-        <span className="mx-3">MINS</span> <span className="mx-3">SECS</span>
+      <div className="text-body-tiny space-x-4">
+        <span>DAYS</span> <span>HOURS</span> <span>MINS</span> <span>SECS</span>
       </div>
     </div>
   );

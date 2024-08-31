@@ -5,7 +5,7 @@ import React from "react";
 
 const NavLink = (props) => {
   return (
-    <Link className="flex items-center ml-8" href={"/contact"}>
+    <Link className="flex items-center ml-7" href={props.href || "#"}>
       <span className={props.active ? "text-white" : "text-grey-500"}>
         {props.title}
       </span>
