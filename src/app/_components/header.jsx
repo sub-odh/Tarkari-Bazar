@@ -89,7 +89,7 @@ export default function Header() {
             <Image src={dropdownIcon} alt="down-icon" className="w-5 h-5" />
           </div>
 
-          <NavLink title="Home" href="#" />
+          <NavLink title="Home" href="/" />
           <NavLink title="Shop" href="shop" />
           <NavLink title="Pages" href="pages" />
           <NavLink title="Blogs" href="blogs" />
