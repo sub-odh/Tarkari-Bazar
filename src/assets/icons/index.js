@@ -30,6 +30,12 @@ import fullstar from "./star/fullstar.svg";
 import halfstar from "./star/halfstar.svg";
 import line from "./line.svg";
 import mail from "./mail.svg";
+import organicIcon from "./about_page/organic.svg";
+import feedbackIcon from "./about_page/feedback.svg";
+import shippingIcon from "./about_page/shipping.svg";
+import support from "./about_page/support.svg";
+import securePayment from "./about_page/securePayment.svg";
+import moneyback from "./about_page/moneyback.svg";
 
 import appleStore from "./appleStore.svg";
 import googlePlay from "./googlePlay.svg";
@@ -90,4 +96,10 @@ export {
   rightArrow,
   contactMapPin,
   contactEmail,
+  organicIcon,
+  feedbackIcon,
+  shippingIcon,
+  support,
+  securePayment,
+  moneyback,
 };

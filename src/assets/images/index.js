@@ -20,6 +20,11 @@ import foodnetworkLogo from "./company/foodnetwork.svg";
 import foodLogo from "./company/food.svg";
 import bookoffLogo from "./company/bookoff.svg";
 import gseriesLogo from "./company/gseries.svg";
+
+import aboutImage1 from "./about/aboutImage-1.svg";
+import aboutImage2 from "./about/aboutImage-2.svg";
+import aboutImage3 from "./about/aboutImage-3.svg";
+
 export {
   logo,
   banner,
@@ -40,4 +45,7 @@ export {
   foodLogo,
   bookoffLogo,
   gseriesLogo,
+  aboutImage1,
+  aboutImage2,
+  aboutImage3,
 };

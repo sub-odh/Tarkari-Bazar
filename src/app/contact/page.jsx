@@ -6,9 +6,9 @@ import { contactEmail, contactMapPin, phoneIcon } from "@/assets/icons";
 
 const Contact = () => {
   return (
-    <section className="mx-10 my-2 ">
+    <section>
       <Nav />
-      <div className="grid grid-cols-2 justify-items-center p-10">
+      <div className="grid grid-cols-3 justify-items-center p-10 ">
         <div className="shadow-gray-300 shadow-lg p-6">
           <div className="flex flex-col items-center justify-center py-6">
             <Image src={contactMapPin} alt="Map Pin" />
@@ -28,7 +28,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="flex flex-col shadow-gray-300 shadow-lg p-10">
+        <div className="flex flex-col col-span-2 shadow-gray-300 shadow-lg p-10">
           <h1 className="text-grey-900 text-body-xxl font-semi-bold">
             Just Say Hello!
           </h1>
@@ -65,7 +65,7 @@ const Contact = () => {
           </button>
         </div>
       </div>
-      <div>
+      <div className="mx-10">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56516.31713617815!2d85.2849330560132!3d27.708954252218156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb198a307baabf%3A0xb5137c1bf18db1ea!2sKathmandu%2044600!5e0!3m2!1sen!2snp!4v1725130878110!5m2!1sen!2snp"
           width="100%"

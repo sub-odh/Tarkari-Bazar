@@ -37,11 +37,7 @@ const services = () => {
         {serviceItems.map((services, index) => (
           <div
             key={index}
-            className={`flex flex-row items-center py-3 ${
-              index === serviceItems.length - 2
-                ? "border-b-2 border-success"
-                : ""
-            }`}
+            className={`flex flex-row items-center py-3 hover:border-opacity-100 border-b-2 border-success border-opacity-0`}
           >
             <Image
               src={services.icon}

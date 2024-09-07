@@ -33,7 +33,7 @@ module.exports = {
         h5: ["2rem", "2.4rem"],
         "body-xxl": ["1.5rem", "2.25rem"],
         "body-xl": ["1.25rem", "1.875rem"],
-        "body-large": ["1.125rem", "16875rem"],
+        "body-large": ["1.125rem", "1.6875rem"],
         "body-medium": ["1rem", "1.5rem"],
         "body-small": ["0.875rem", "1.3125rem"],
         "body-tiny": ["0.75rem", "0.975rem"],
