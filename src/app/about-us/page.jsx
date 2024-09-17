@@ -1,15 +1,19 @@
 import React from "react";
 import Nav from "../_components/nav";
 import Brands from "../_components/brands";
+import Team from "../_components/team";
+import Testimonial from "../_components/testimonial";
 import Image from "next/image";
-import { aboutImage1, aboutImage2 } from "@/assets/images";
+import { aboutImage1, aboutImage2, aboutImage3 } from "@/assets/images";
 import {
+  check,
   feedbackIcon,
   moneyback,
   organicIcon,
   securePayment,
   shippingIcon,
   support,
+  arrowIcon,
 } from "@/assets/icons";
 
 const AboutUs = () => {
@@ -38,10 +42,14 @@ const AboutUs = () => {
           />
         </div>
 
-        <div className="grid grid-cols-2 justify-items-start">
-          <Image src={aboutImage2} alt="Farmers" />
+        <div className="grid grid-cols-2">
+          <Image
+            src={aboutImage2}
+            alt="Farmers"
+            className="h-[40rem] object-cover"
+          />
 
-          <div className="mt-20">
+          <div className=" mt-20">
             <h1 className=" text-grey-900 text-h1 font-semibold">
               100% Trusted <br /> Organic Food Store
             </h1>
@@ -130,7 +138,44 @@ const AboutUs = () => {
             </div>
           </div>
         </div>
+
+        <div className="grid grid-cols-2 py-14">
+          <div className="ml-32 my-14 mr-7">
+            <h1 className="text-grey-900 text-h1 font-semibold mb-4">
+              We deliver,
+              <br />
+              You enjoy your order.
+            </h1>
+            <p className="mb-4">
+              Ut suscipit egestas suscipit. Sed posuere pellentesque nunc,
+              ultrices consectetur velit dapibus eu. Mauris sollicitudin
+              dignissim diam, ac mattis eros accumsan rhoncus. Curabitur auctor
+              bibendum nunc eget elementum.
+            </p>
+            <ul className="mb-4">
+              <li className="flex gap-4">
+                <Image src={check} alt="" />
+                Sed in metus pellentesque.
+              </li>
+              <li className="flex gap-4">
+                <Image src={check} alt="" />
+                Fusce et ex commodo, aliquam nulla efficitur, tempus lorem.
+              </li>
+              <li className="flex gap-4">
+                <Image src={check} alt="" />
+                Maecenas ut nunc fringilla erat varius.
+              </li>
+            </ul>
+            <button className="bg-success flex items-center text-white px-4 py-2 rounded-full">
+              Shop Now
+              <Image className="ml-2" src={arrowIcon} />
+            </button>
+          </div>
+          <Image src={aboutImage3} alt="Delivery" />
+        </div>
       </section>
+      <Team />
+      <Testimonial />
       <Brands />
     </>
   );

@@ -36,6 +36,7 @@ import shippingIcon from "./about_page/shipping.svg";
 import support from "./about_page/support.svg";
 import securePayment from "./about_page/securePayment.svg";
 import moneyback from "./about_page/moneyback.svg";
+import check from "./check.svg";
 
 import appleStore from "./appleStore.svg";
 import googlePlay from "./googlePlay.svg";
@@ -102,4 +103,5 @@ export {
   support,
   securePayment,
   moneyback,
+  check,
 };

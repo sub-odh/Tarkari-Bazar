@@ -23,6 +23,7 @@ module.exports = {
         wishlistActive: "url('/wishlistActive.svg')",
         wishlistHover: "url('/wishlistHover.svg')",
         navImg: "url('/navImg.svg')",
+        aboutImage2: `url('/aboutImage-2.svg')`,
       },
       fontSize: {
         d1: ["4.5rem", "5.25rem"],
